@@ -119,6 +119,19 @@ a {
     width: 255px;
   }
 
+  .container1 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-left: 7rem;
+    margin-right: 1.5rem;
+    text-align: right;
+    margin-top: 22%;
+}
+
+.section1 {
+    padding: 2rem 0;
+}
+
 @media screen and (min-width: 2048px) {
   body {
    zoom: 1.7;
