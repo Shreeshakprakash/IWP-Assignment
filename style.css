@@ -75,7 +75,7 @@ a {
     background-color: var(--container-color);
     box-shadow: 1px 0 4px hsla(228, 81%, 49%, .15);
     width: 84px;
-    height: 100vh;
+    height: 100%;
     padding: 2rem;
     transition: .3s;
 }
