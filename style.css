@@ -32,6 +32,11 @@ a {
     text-decoration: none;
 }
 
+@media screen and (max-width: 576px) {
+  .menu-bar{
+    visibility: hidden;
+  }
+}
 .container {
     margin-left: 1rem;
     margin-right: 1rem;
@@ -131,6 +136,56 @@ a {
 .section1 {
     padding: 2rem 0;
 }
+
+.bottom-txt {
+  text-align: right;
+  margin-right: 1rem;
+  color: rgb(48, 153, 223);
+}
+
+
+/* ======= Menu Bar ======= */
+.menu-bar {
+  background-color: var(--container-color);
+  padding: 10px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -400px;
+}
+
+.main-name {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  margin: 0 15px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.menu a:hover {
+  color: var(--first-color);
+}
+
 
 @media screen and (min-width: 2048px) {
   body {
